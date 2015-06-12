@@ -1,0 +1,267 @@
+body, html {
+	height: 100%;
+	margin: 0;
+
+}
+body{
+	max-width: 100%;
+	overflow-x:hidden;
+}
+
+
+/* ***** HOMEPAGE ****** */
+
+.titleText {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.head {
+	font-size: 60px;
+}
+
+.secondHead {
+	font-size: 36px;
+}
+
+.homepageContainer {
+	background-image: url("../img/homepage-img/hero-photo.png");
+	background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+ 
+}
+
+
+.navbar-default{
+	margin: 0px auto;
+	padding: 15px 0px;
+	background-color: rgba(0, 0, 0, 0.75);
+	border: none;
+	color: white;
+}
+
+.nimLogo {
+	
+}
+
+.navbar-default .navbar-nav> li>a  {
+  color: white;
+}
+
+.navbar-header {
+	padding-left: 5px;
+	padding-bottom: 10px;
+}
+
+.heroText {
+/*	font-family: 'Open Sans', sans-serif;
+*/	color: white;
+	
+}
+
+.hero-content {
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 200px;
+}
+
+
+/*.navHero1 {
+	
+}*/
+
+/*.content1 {
+	color: white;
+
+}*/
+
+.btn-default {
+	border-radius: 5%;
+	background-color: #FF922D;
+	border: none; 
+	padding: 30px 70px;
+	color: white; 
+	font-size: 18px
+
+}
+
+.content1 {
+	text-align: center;
+	padding-top: 50px;
+
+}
+
+.content2 {
+	text-align: center;
+	padding-top: 50px;
+	
+}
+
+.firstText {
+	font-size: 18px;
+}
+
+.secondText {
+	color: #959595;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 18px;
+}
+ 
+ .btn2 {
+ 	border: 3px solid #FF9C00;
+ 	background-color: white;
+ 	color: #FF9C00;
+ 	font-family: 'Open Sans', sans-serif;
+ 	margin-bottom: 100px;
+ 	
+ }
+
+.navHero2 {
+	background-image: url("../img/homepage-img/testimonial-photo1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.head2{
+	color: white;	
+	font-family: 'Quicksand', sans-serif;
+	font-size: 60px;
+}
+
+.secondHead2 {
+	color: white;	
+	font-family: 'Quicksand', sans-serif;
+	font-size: 18px;
+}
+/*.col-md-2 */.footerList {
+	color: #ACACAC;
+	line-height: 30px;
+	font-size: 13px;
+	padding-top: 20px;
+/*	font-family: 'Quicksand', sans-serif;*/
+}
+
+.footerImage {
+	padding-top: 30px;
+	float: left;
+}
+/* ****** SERVICES PAGE ******** */
+
+.nimNavServices {
+	
+  	background: #1e5799; /* Old browsers */
+	background: -moz-linear-gradient(left,  #1e5799 0%, #6e94e1 46%, #6e94e1 46%, #7db9e8 77%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#1e5799), color-stop(46%,#6e94e1), color-stop(46%,#6e94e1), color-stop(77%,#7db9e8)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #1e5799 0%,#6e94e1 46%,#6e94e1 46%,#7db9e8 77%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #1e5799 0%,#6e94e1 46%,#6e94e1 46%,#7db9e8 77%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #1e5799 0%,#6e94e1 46%,#6e94e1 46%,#7db9e8 77%); /* IE10+ */
+	background: linear-gradient(to right,  #1e5799 0%,#6e94e1 46%,#6e94e1 46%,#7db9e8 77%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 */
+
+}
+
+.servicesImages {
+/*	float: left;
+	padding-right: 50px;*/
+}
+.h3 {
+	text-align: center;
+	padding-top: 50px
+
+}
+
+
+.servicesButton {
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 150px;
+
+}
+
+.servicesContent {
+	padding-top: 80px;
+
+}
+
+.teamContent {
+	text-align: center;
+}
+
+.team {
+	padding-bottom: 60px;
+}
+
+.socialTeam {
+	padding-bottom: 15px;
+}
+
+/* ******** TEAM PAGE ************* */
+
+.teamContainer {
+
+}
+
+.teamTitle {
+
+}
+
+.teamImages {
+
+}
+
+.teamParagraph {
+
+}
+
+.teamButton {
+
+}
+
+@media (max-width: 770px) {
+.s-center{
+	text-align:center;
+
+}
+}
+
+/*@media (max-width: 770px) {
+.social {
+	padding-bottom: 100px;
+}
+}*/
+
+
+/*@media (max-width: 600px) {
+	.homepageContainer {
+		width: 1366px;
+	}
+	}
+
+	.image {
+ 		width: 100%;
+ 	}  
+}
+
+@media (max-width: 800px) {
+	.container
+	{
+		width: 400px;
+	}
+ 	
+ 	.image {
+ 		width: 100%;
+ 	}  
+}
+
+@media (max-width: 400px) {
+	.container, .image 
+	{
+		width: 100%;
+	}
+
+	.hotdawg
+	{
+		font-size: 10px;
+
+	}
+}*/
